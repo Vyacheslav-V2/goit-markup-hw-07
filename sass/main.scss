@@ -1,0 +1,27 @@
+@import "./utils/vars";
+@import "./base/reset";
+@import "./base/common";
+@import "./utils/visually-hidden";
+
+//------------------------------------componets-----//
+@import "./components/conteiner";
+@import "./components/modal";
+
+//------------------------------------btns---------//
+@import "./components/hero-button";
+@import "./components/filter-botton";
+@import "./components/modal-send-butto";
+@import "./components/footer-send-button";
+
+//------------------------------------layot--------//
+@import "./layout/studio-header";
+@import "./layout/hero";
+@import "./layout/about";
+@import "./layout/works";
+@import "./layout/team";
+@import "./layout/clients";
+@import "./layout/footer";
+@import "./layout/portfolio-header";
+@import "./layout/portfolio-main";
+@import "./layout/filter-bottons";
+@import "./layout/projects";

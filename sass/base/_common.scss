@@ -1,0 +1,22 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto;
+}
+
+img {
+  height: auto;
+  display: block;
+  max-width: 100%;
+}
+
+.navigation-list,
+.about-list {
+  padding: 0px;
+  display: flex;
+  align-items: center;
+}

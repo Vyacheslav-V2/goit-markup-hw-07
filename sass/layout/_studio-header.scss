@@ -1,0 +1,122 @@
+.studio-header .container {
+  display: flex;
+  align-items: center;
+}
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #000000;
+  margin-right: 93px;
+  padding: 24px 0px;
+}
+
+.logo-web {
+  color: var(--primery-blue);
+}
+
+.navigation-list {
+  margin: 0px;
+}
+
+.navigation-list-item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.navigation-list-item-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primery-black);
+  &:hover,
+  &:focus {
+    color: var(--primery-blue);
+  }
+}
+
+.navigation-list-item-link,
+.contacts-list-item-link {
+  /* display: block; */
+  padding: 32px 0;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.navigation-list-item-link.current {
+  color: var(--primery-blue);
+  position: relative;
+}
+
+.navigation-list-item-link.current .contacts-list {
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  margin-left: 305px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.contacts-list {
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  margin-left: 305px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.navigation-list-item-link.current .contacts-list-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.contacts-list-item-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+  flex-wrap: nowrap;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primery-grey);
+  &:hover,
+  &:focus {
+    color: var(--primery-blue);
+  }
+  &:hover .contacts-icon,
+  &:focus .contacts-icon {
+    fill: var(--primery-blue);
+  }
+  &:hover .contacts-icon-phone,
+  &:focus .contacts-icon-phone {
+    fill: var(--primery-blue);
+  }
+}
+
+.contacts-icon {
+  margin-right: 10px;
+  height: 12px;
+  width: 16px;
+  fill: #757575;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contacts-icon-phone {
+  margin-right: 9px;
+  height: 16px;
+  width: 10px;
+  fill: #757575;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.address-link:hover,
+.address-link:focus {
+  color: var(--primery-blue);
+}

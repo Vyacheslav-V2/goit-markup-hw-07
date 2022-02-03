@@ -16,3 +16,8 @@
   "liveServer.settings.port": 1235,
   "liveSassCompile.settings.autoprefix": null
 }
+
+{
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active"
+}

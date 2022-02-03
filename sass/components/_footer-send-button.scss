@@ -1,0 +1,24 @@
+.footer-send-button {
+  position: relative;
+  min-width: 200px;
+  margin-left: 12px;
+  padding: 10px 24px;
+  text-align: left;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: var(--primery-white);
+  background-color: var(--primery-blue);
+  border-radius: 4px;
+  border: 0;
+}
+
+.footer-send-button-icon {
+  position: absolute;
+  right: 28px;
+  top: 13px;
+  height: 24px;
+  width: 24px;
+}

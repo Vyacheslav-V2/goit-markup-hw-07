@@ -1,0 +1,134 @@
+.footer {
+  display: flex;
+  background-color: #2f303a;
+  max-width: 1600px;
+  margin: auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.foot-main {
+  display: flex;
+  align-items: baseline;
+}
+
+.logo.footer {
+  margin-bottom: 20px;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--primery-white);
+  padding: 0;
+}
+
+.address {
+  font-style: normal;
+}
+
+.address-discription {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--primery-white);
+  margin: 0px;
+  margin-bottom: 10px;
+}
+
+.address-list {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px;
+}
+
+.address-list-item {
+  margin-bottom: 9px;
+}
+
+.address-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.foot-social {
+  margin-left: 70px;
+}
+
+.foot-social-title {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primery-white);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.foot-social-link-list {
+  display: flex;
+  padding: 0px;
+  margin: 0px;
+}
+
+.foot-social-link-item:not(:first-child) {
+  margin-left: 10px;
+}
+
+.foot-social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: #454649;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    background-color: var(--primery-blue);
+  }
+}
+
+.foot-social-link-icon {
+  width: 20px;
+  height: 20px;
+  fill: var(--primery-white);
+}
+
+.sign-in-conteiner {
+  padding-left: 93px;
+}
+
+.sign-in-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primery-white);
+}
+
+.footer-e-mail {
+  width: 358px;
+  height: 50px;
+  padding-left: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background-color: #2f303a;
+  border-radius: 4px;
+  color: var(--primery-white);
+  &::placeholder {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+  }
+}
