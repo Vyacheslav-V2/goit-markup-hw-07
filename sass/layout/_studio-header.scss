@@ -1,6 +1,11 @@
-.studio-header .container {
+.header .container {
   display: flex;
   align-items: center;
+}
+.header {
+  border-bottom: 1px solid #ececec;
+  max-width: 1600px;
+  margin: auto;
 }
 .navigation {
   display: flex;
@@ -43,10 +48,19 @@
     color: var(--primery-blue);
   }
 }
-
 .navigation-list-item-link.current {
   color: var(--primery-blue);
   position: relative;
+  &::after {
+    display: block;
+    position: absolute;
+    content: "";
+    bottom: 0;
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    background-color: var(--primery-blue);
+  }
   & .contacts-list {
     padding: 0px;
     display: flex;

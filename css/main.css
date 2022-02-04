@@ -332,9 +332,15 @@ input[type="radio"].visually-hidden {
   width: 24px;
 }
 
-.studio-header .container {
+.header .container {
   display: flex;
   align-items: center;
+}
+
+.header {
+  border-bottom: 1px solid #ececec;
+  max-width: 1600px;
+  margin: auto;
 }
 
 .navigation {
@@ -382,6 +388,17 @@ input[type="radio"].visually-hidden {
 .navigation-list-item-link.current {
   color: var(--primery-blue);
   position: relative;
+}
+
+.navigation-list-item-link.current::after {
+  display: block;
+  position: absolute;
+  content: "";
+  bottom: 0;
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  background-color: var(--primery-blue);
 }
 
 .navigation-list-item-link.current .contacts-list {
@@ -894,17 +911,6 @@ input[type="radio"].visually-hidden {
   line-height: 1.25;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-}
-
-.portfolio-header .container {
-  display: flex;
-  align-items: center;
-}
-
-.portfolio-header {
-  border-bottom: 1px solid #ececec;
-  max-width: 1600px;
-  margin: auto;
 }
 
 .portfolio-main {
