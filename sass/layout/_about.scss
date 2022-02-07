@@ -1,18 +1,17 @@
-.about,
-.works {
+.about {
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
-.about-title {
+.about__title {
   color: var(--primery-white);
 }
 
-.about-list {
+.about__list {
   margin: 0px;
 }
 
-.about-list-item {
+.about-list__item {
   width: calc((100% - 3 * 30px) / 4);
   &:not(:last-child) {
     margin-right: 30px;
@@ -34,7 +33,7 @@
   width: 70px;
 }
 
-.about-list-item-title {
+.about-list__item-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -42,11 +41,11 @@
   color: var(--primery-black);
   text-transform: uppercase;
   &,
-  .about-list-item-discription {
+  .about-list__item-discription {
     margin: 0 0;
     margin-bottom: 10px;
   }
-  & .about-list-item-discription {
+  & .about-list__item-discription {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;

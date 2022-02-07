@@ -1,8 +1,10 @@
 .works {
   padding-top: 0px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
-.works-title {
+.works__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -15,24 +17,24 @@
   margin-bottom: 50px;
 }
 
-.works-list {
+.works__list {
   display: flex;
   margin: 0px;
   padding-left: 0px;
 }
 
-.works-list-item:not(:last-child) {
+.works-list__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.works-img-thumb {
+.works__img-thumb {
   position: relative;
   height: auto;
   display: block;
   max-width: 100%;
 }
 
-.works-img-description {
+.works__img-description {
   position: absolute;
   width: 100%;
   left: 0;
