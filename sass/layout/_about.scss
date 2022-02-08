@@ -46,10 +46,24 @@
     margin-bottom: 10px;
   }
   & .about-list__item-discription {
+    font-family: Roboto;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     color: var(--primery-grey);
     margin-bottom: 0px;
+  }
+}
+
+.about-list__item-discription {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--primery-grey);
+  margin-bottom: 0px;
+  & {
+    margin: 0 0;
+    margin-bottom: 10px;
   }
 }

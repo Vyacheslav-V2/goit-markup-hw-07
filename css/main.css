@@ -3,6 +3,8 @@
   --primery-black: #212121;
   --primery-blue: #2196f3;
   --primery-grey: #757575;
+  --hero-bg: #2f303a;
+  --modal-send-bg: #188ce8;
 }
 
 ul {
@@ -341,7 +343,7 @@ input[type="radio"].visually-hidden {
 }
 
 .modal-send-button:focus, .modal-send-button:hover {
-  background-color: #188ce8;
+  background-color: var(--modal-send-bg);
 }
 
 .footer-send-button {
@@ -497,7 +499,7 @@ input[type="radio"].visually-hidden {
   margin-right: 10px;
   height: 12px;
   width: 16px;
-  fill: #757575;
+  fill: var(--primery-grey);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -505,7 +507,7 @@ input[type="radio"].visually-hidden {
   margin-right: 9px;
   height: 16px;
   width: 10px;
-  fill: #757575;
+  fill: var(--primery-grey);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -515,14 +517,13 @@ input[type="radio"].visually-hidden {
 }
 
 .hero {
-  margin: auto;
+  margin: 0 auto;
   padding-top: 200px;
   padding-bottom: 200px;
-  background-color: #2f303a;
+  background-color: var(--hero-bg);
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../img/hero-foto.jpg");
-  height: auto;
-  display: block;
-  max-width: 100%;
+  height: 600px;
+  max-width: 1600px;
   background-repeat: no-repeat;
   text-align: center;
   background-position: center;
@@ -538,7 +539,7 @@ input[type="radio"].visually-hidden {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--primery-white);
 }
 
 .about {
@@ -593,6 +594,7 @@ input[type="radio"].visually-hidden {
 }
 
 .about-list__item-title .about-list__item-discription {
+  font-family: Roboto;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -600,9 +602,22 @@ input[type="radio"].visually-hidden {
   margin-bottom: 0px;
 }
 
+.about-list__item-discription {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--primery-grey);
+  margin-bottom: 0px;
+}
+
+.about-list__item-discription {
+  margin: 0 0;
+  margin-bottom: 10px;
+}
+
 .works {
   padding-top: 0px;
-  padding-top: 94px;
   padding-bottom: 94px;
 }
 
@@ -643,7 +658,7 @@ input[type="radio"].visually-hidden {
   top: 0;
   margin-top: 224px;
   padding: 27px;
-  background-color: rgba(47, 48, 58, 0.8);
+  background-color: #2f303acc;
   color: var(--primery-white);
   font-weight: 700;
   font-size: 14px;
@@ -690,6 +705,7 @@ input[type="radio"].visually-hidden {
 .team-container {
   padding-top: 30px;
   padding-bottom: 30px;
+  background-color: var(--primery-white);
 }
 
 .team-img {
@@ -880,7 +896,7 @@ input[type="radio"].visually-hidden {
 }
 
 .sign-in-conteiner {
-  padding-left: 93px;
+  margin-left: auto;
 }
 
 .sign-in-title {
